@@ -1,5 +1,5 @@
 {
-  "homepage": "http://giopunt.github.io/react-starter-pack",
+  "homepage": "http://reactstarterpack.com",
   "name": "react-starter-pack",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "echo 'reactstarterpack.com' > ./build/CNAME && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
