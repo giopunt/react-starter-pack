@@ -81,6 +81,11 @@ export const AppDescription = styled(StyledDescription)`
   &:nth-of-type(2) {
     flex-direction: row-reverse;
   }
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse !important;
+    margin-top: 70px;
+  }
 `
 
 export const AppDetails = styled.div`
