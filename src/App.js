@@ -1,6 +1,5 @@
 import Header from './components/Header';
-import BuiltWith from './components/BuiltWithReact';
-import { AppScreen, AppDescription, SmallBuyButton, AppTitle, AppDetails, Main, BundleDescription, BuyButton, StarterPackLogo, StyledDescription, Section, Title, AppsList, Link, IconLogo, Footer } from './styles';
+import { BuiltWith, AppScreen, AppDescription, SmallBuyButton, AppTitle, AppDetails, Main, BundleDescription, BuyButton, StarterPackLogo, StyledDescription, Section, Title, AppsList, Link, IconLogo, Footer } from './styles';
 import starterPackLogo from './assets/bundle.png';
 import shopLogoIcon from './assets/shop-200-s.png';
 import financeLogoIcon from './assets/finance-200-s.png';
@@ -26,7 +25,7 @@ function App() {
           >
             Buy the Bundle — £49
           </BuyButton>
-          <Link href="#bundle">What's included ?</Link>
+          <Link href="#what-s-included">What's included ?</Link>
         </Section>
 
         <div className='apps'>
@@ -78,7 +77,7 @@ function App() {
           <StyledDescription>Buy this bundle of native apps and build apps for Android and iOS using React.</StyledDescription>
         </BuiltWith>
 
-        <BundleDescription id="bundle">
+        <BundleDescription id="what-s-included">
           <AppTitle>What's included</AppTitle>
           Includes the source code for 3 apps written in React Native:
           <AppsList>

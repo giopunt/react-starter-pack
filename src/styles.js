@@ -126,3 +126,10 @@ export const Footer = styled.footer`
     color: #000;
   }
 `
+
+export const BuiltWith = styled.div`
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
