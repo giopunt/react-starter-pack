@@ -1,5 +1,3 @@
-import styled from 'styled-components';
-
 import Header from './components/Header';
 import BuiltWith from './components/BuiltWithReact';
 import { AppScreen, AppDescription, SmallBuyButton, AppTitle, AppDetails, Main, BundleDescription, BuyButton, StarterPackLogo, StyledDescription, Section, Title, AppsList, Link, IconLogo, Footer } from './styles';
@@ -92,7 +90,7 @@ function App() {
         </BundleDescription>
       </Main>
       <Footer>
-        made by <a href="https://twitter.com/giovannipuntil" target="_blank" rel="no-referrer">@giovannipuntil</a>
+        made by <a href="https://twitter.com/giovannipuntil" target="_blank" rel="noreferrer noopener">@giovannipuntil</a>
       </Footer>
     </div>
   );
