@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="464px" height="196px" viewBox="0 0 464 196" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>&lt;STARTER PACK/&gt;</title>
+    <defs>
+        <linearGradient x1="-29.4808175%" y1="44.2011869%" x2="176.938474%" y2="68.7859899%" id="linearGradient-1">
+            <stop stop-color="#42C7FF" offset="0%"></stop>
+            <stop stop-color="#8218FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Imprima-Regular, Imprima" font-size="100" font-weight="normal" letter-spacing="8.39880943">
+        <g id="A4" transform="translate(-638.000000, -176.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(151.000000, 154.000000)">
+                <text id="&lt;STARTER-PACK/&gt;">
+                    <tspan x="480.004762" y="92">&lt;STARTER </tspan>
+                    <tspan x="550.053572" y="208">PACK/&gt;</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
