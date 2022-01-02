@@ -96,7 +96,6 @@ export const AppDescription = styled(StyledDescription)`
     & > div:first-of-type {
       margin-top: 50px;
       margin-right: 0px;
-      margin-left: 0px;
     }
 
     &, &:nth-of-type(2) {
@@ -104,6 +103,7 @@ export const AppDescription = styled(StyledDescription)`
 
       & > div:first-of-type {
        margin-top: 50px;
+       margin-left: 0px;
       }
     }
   }
