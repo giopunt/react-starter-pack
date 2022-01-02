@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-starter-pack/static/css/main.1ec787a8.css",
+    "main.js": "/react-starter-pack/static/js/main.d1fe8c8c.js",
+    "static/js/787.2502578f.chunk.js": "/react-starter-pack/static/js/787.2502578f.chunk.js",
+    "static/media/bundle.png": "/react-starter-pack/static/media/bundle.86460d2448b1b3266a22.png",
+    "static/media/finance-mock-up.jpg": "/react-starter-pack/static/media/finance-mock-up.020b15833787c00ef5cd.jpg",
+    "static/media/social-mock-up.jpg": "/react-starter-pack/static/media/social-mock-up.e2799c881d4c611fc361.jpg",
+    "static/media/shop-mock-up.jpg": "/react-starter-pack/static/media/shop-mock-up.4ee2da06ff56085f0242.jpg",
+    "static/media/finance-200-s.png": "/react-starter-pack/static/media/finance-200-s.8e0c6b98045c51fe30af.png",
+    "index.html": "/react-starter-pack/index.html",
+    "main.1ec787a8.css.map": "/react-starter-pack/static/css/main.1ec787a8.css.map",
+    "main.d1fe8c8c.js.map": "/react-starter-pack/static/js/main.d1fe8c8c.js.map",
+    "787.2502578f.chunk.js.map": "/react-starter-pack/static/js/787.2502578f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ec787a8.css",
+    "static/js/main.d1fe8c8c.js"
+  ]
+}
