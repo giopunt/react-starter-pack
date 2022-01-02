@@ -83,8 +83,11 @@ export const AppDescription = styled(StyledDescription)`
   }
 
   @media (max-width: 768px) {
-    flex-direction: column-reverse !important;
     margin-top: 70px;
+
+    &, &:nth-of-type(2) {
+      flex-direction: column-reverse;
+    }
   }
 `
 
