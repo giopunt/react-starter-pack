@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import { BuiltWith, AppScreen, AppDescription, SmallBuyButton, AppTitle, AppDetails, Main, BundleDescription, BuyButton, StarterPackLogo, StyledDescription, Section, Title, AppsList, Link, IconLogo, Footer } from './styles';
+import { SmallParagraph, BuiltWith, AppScreen, AppDescription, SmallBuyButton, AppTitle, AppDetails, Main, BundleDescription, BuyButton, StarterPackLogo, StyledDescription, Section, Title, AppsList, Link, IconLogo, Footer } from './styles';
 import starterPackLogo from './assets/bundle.png';
 import shopLogoIcon from './assets/shop-200-s.png';
 import financeLogoIcon from './assets/finance-200-s.png';
@@ -14,7 +14,6 @@ function App() {
     <div className="font-loader">
       <Header/>
       <Main>
-
         <Section>
           <StarterPackLogo src={starterPackLogo} alt="starter pack" />
           <Title>React Native Starter Pack</Title>
@@ -33,7 +32,7 @@ function App() {
             <AppDetails>
               <IconLogo src={shopLogoIcon} />
               <AppTitle>Shop</AppTitle>
-              Browse curated content, search items by name, add to bag or save for later.
+              <SmallParagraph>Browse curated content, search items by name, add to bag or save for later.</SmallParagraph>
               <SmallBuyButton
                 href="https://giovannipuntil.gumroad.com/l/react-starter-pack-shop"
               >
@@ -47,7 +46,7 @@ function App() {
             <AppDetails>
               <IconLogo src={financeLogoIcon} />
               <AppTitle>Finance</AppTitle>
-              See the latest balance, keep an eye on your spending, check your investments or make a transfer.
+              <SmallParagraph>See the latest balance, keep an eye on your spending, check your investments or make a transfer.</SmallParagraph>
               <SmallBuyButton
                 href="https://giovannipuntil.gumroad.com/l/react-starter-pack-finance"
               >
@@ -61,7 +60,7 @@ function App() {
             <AppDetails>
               <IconLogo src={socialLogoIcon} />
               <AppTitle>Social</AppTitle>
-              Scroll an infinite timeline, write a post, like a post. Read and send private messages.
+              <SmallParagraph>Scroll an infinite timeline, write a post, like a post. Read and send private messages.</SmallParagraph>
               <SmallBuyButton
                 href="https://giovannipuntil.gumroad.com/l/react-starter-pack-social"
               >

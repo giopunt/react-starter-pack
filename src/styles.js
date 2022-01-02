@@ -77,27 +77,40 @@ export const AppDescription = styled(StyledDescription)`
   align-items: center;
   justify-content: space-between;
 
+  & > div:first-of-type {
+    margin-right: 50px;
+  }
+
   &:nth-of-type(2) {
     flex-direction: row-reverse;
+
+    & > div:first-of-type {
+     margin-right: 0px;
+     margin-left: 50px;
+    }
   }
 
   @media (max-width: 768px) {
     margin-top: 70px;
 
+    & > div:first-of-type {
+      margin-top: 50px;
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+
     &, &:nth-of-type(2) {
       flex-direction: column-reverse;
+
+      & > div:first-of-type {
+       margin-top: 50px;
+      }
     }
   }
 `
 
 export const AppDetails = styled.div`
-  margin-right: 50px;
   flex: 1;
-
-  @media (max-width: 768px) {
-    margin-top: 50px;
-    margin-right: 0px;
-  }
 `
 
 export const AppScreen = styled.img`
@@ -145,4 +158,8 @@ export const BuiltWith = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+`
+
+export const SmallParagraph = styled.div`
+  max-width: 400px;
 `
