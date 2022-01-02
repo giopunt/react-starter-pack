@@ -76,7 +76,6 @@ export const AppDescription = styled(StyledDescription)`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
 
   &:nth-of-type(2) {
     flex-direction: row-reverse;
@@ -92,7 +91,13 @@ export const AppDescription = styled(StyledDescription)`
 `
 
 export const AppDetails = styled.div`
+  margin-right: 50px;
   flex: 1;
+
+  @media (max-width: 768px) {
+    margin-top: 50px;
+    margin-right: 0px;
+  }
 `
 
 export const AppScreen = styled.img`
